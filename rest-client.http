@@ -1,0 +1,27 @@
+
+GET http://localhost:3000/songs
+
+### Find songs request
+
+GET http://localhost:3000/songs/1
+
+
+### Create new songs request
+
+POST http://localhost:3000/songs
+Content-Type: : application/json
+
+{
+"title": "Lasting Lover",
+"artists": ["Siagla"],
+"releasedDate" : "2022-07-29 00:00:00",
+"duration" :"02:34"
+}
+
+### Update songs request
+
+PUT http://localhost:3000/songs/1
+
+### Update songs request
+
+DELETE http://localhost:3000/songs/1
